@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ooans_par_inh_hier
+namespace ooans_par_inh_hier_ref1
 {
     class XMLTagAttribute
     {

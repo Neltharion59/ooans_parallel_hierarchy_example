@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ooans_par_inh_hier
+namespace ooans_par_inh_hier_ref1
 {
     class FileSystem
     {
@@ -40,6 +40,14 @@ namespace ooans_par_inh_hier
                 Result = this.Files[Name];
             }
             return Result;
+        }
+
+        public void PrintState()
+        {
+            foreach (var item in this.Files)
+            {
+                Console.WriteLine("key:" + item.Key + "\n"  + item.Value);
+            }
         }
     }
 }
